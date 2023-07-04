@@ -1,0 +1,7 @@
+<h1>Welcome!</h1>
+
+<ul>
+    {% for book in books %}
+        <li>{{ book.name }} | {{ book.author }} | {{ book.price }}</li>
+    {% endfor %}
+</ul>
